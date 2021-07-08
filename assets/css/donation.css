@@ -1,0 +1,432 @@
+/*---------------
+Fonts
+----------------*/
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Cairo', sans-serif;
+}
+
+/*Start Upper Bar*/
+.upper-bar{
+    background-color: #2d3e50;
+    color: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+   
+}
+.language a{
+    text-decoration: none;
+}
+.language a:first-of-type{
+    color: #bf2434;
+   
+}
+
+.language a:last-of-type{
+    color:#abbdd1 ;
+    padding-right: 4px;
+    border-right: 1px solid #abbdd1;
+}
+.communication-links{
+    text-align: center !important;
+   
+}
+.communication-links a{
+    color: #fff;
+    text-decoration: none;
+}
+.communication-links a:nth-child(even){
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.communication-info{
+    text-align: center !important;
+}
+.communication-info a{
+    margin-bottom: 0;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+.communication-info a:first-of-type{
+    border-bottom: 1px dashed #fff;
+}
+.communication-info a:last-of-type{
+    margin-right: 40px;
+    color: #f8b037;
+    
+}
+/*End Upper Bar*/
+/*Start NavBar*/
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(58,173,230, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+button:focus{
+    outline:none;
+}
+.navbar{
+    background-color: #f9f9f9;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.navbar-brand img{
+    height: 68px;
+}
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    border-right: 1px solid #eee;
+    color: #000;
+}
+.nav-item{
+   
+    padding-top:20px ;
+    padding-bottom:20px ;
+}
+.nav-item a{
+    text-decoration: none;  
+}
+.nav-item.active{ 
+    border-bottom: 2px solid #e02327;
+    font-weight: 600;
+}
+.nav-item.active .nav-link{
+    color: #e02327;
+}
+
+form button:last-of-type{
+    color: #fff;
+    background-color: #2c3e4c;
+    border: none;
+    outline: none;
+    font-weight: 600;
+   width: 160px;
+    margin-left: 160px;
+}
+.btn:hover {
+    background-color: #2c3e4c;
+    border-color: #2c3e4c;
+    color: #fff;
+}
+
+/*End Nav Bar*/
+/*Start Order*/
+.order{
+    background-color: #fbfbfb;
+}
+.order .first{
+    padding: 0;
+    margin-bottom: 80px;
+}
+.breadcrumb a{
+    text-decoration: none;
+    color: #ccc;
+}
+ol.breadcrumb{
+    margin-bottom: 0;
+    background-color: #fff;
+    border: 1px solid #eee;
+}
+/*Start order*/
+.custom-container{
+    max-width: 100%;
+}
+.order{
+    background-color: #f5f5f5;
+    padding-top:40px ;
+    padding-bottom: 40px;
+}
+.order select {
+    color: #ccc;
+    width: 100%;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    height: 50px;
+    background-color: #fff;
+    padding-right: 12px;
+    margin-bottom: 20px;
+    border: none;
+
+}
+.order .box::before {
+    font-family: "Font Awesome 5 Free";
+    content: '\f358';
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 60px;
+    height: 50px;
+    background: #fff;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    color: #333;
+    line-height: 50px;
+    text-align: center;
+    pointer-events: none;
+    cursor: pointer;
+    border-right: 1px solid #ccc;
+    z-index: 7;
+}
+
+.order .search-btn button {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    color: #000;
+    outline: none;
+    border: none;
+    line-height: 50px;
+    font-size: 24px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.order .info-blood{
+    background-color: #fff;
+    border-top-right-radius:25rem ;
+    border-bottom-right-radius:25rem ;
+    height: auto;
+    margin-bottom: 40px;
+}
+.order .type-blood {
+    background-color: #f5f5f5;
+    /* height: 95%; */
+    border-radius: 50%;
+    /* width: 85%; */
+    text-align: center;
+    margin-right: -8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 0;
+    width: 166px;
+    height: 166px;  
+}
+.order .type-blood h1 {
+    padding-top: 25%;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 57px;
+}
+.order .info-blood p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: #2e3f53;
+    font-size: 18px;
+}
+.order .info-blood p span{
+    font-weight: 400;
+}
+
+.order .custom-detail a{
+    display: block;
+    background: #f6f6f6;
+    padding: 18px 40px;
+    width: 80%;
+    color: #2e3f53;
+   margin-top: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    text-align: center;
+}
+.order .custom-detail .special-link{
+    background-color: #2d3e50;
+    color: #fff;
+}
+
+.order .more{
+    background-color: #2d3e50;
+    color: #fff; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    text-align: center;
+    padding: 12px 80px;
+
+}
+.page-item .page-link  {
+    color:#2c3e4c
+    
+}
+.page-item.active .page-link    {
+    background-color: #2c3e4c;
+    border: #2c3e4c;
+}
+/*End order*/
+/*Start Footer*/
+.footer{
+    background-color: #1a1f25;
+    height: auto;
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer h4{
+    color: #d11f1b;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.footer p{
+    line-height: 2;
+    margin-top: 30px;
+}
+.footer a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 30px;
+}
+.footer img{
+    max-width: 100%;
+}
+/*End Footer*/
+/*Start CopyRight*/
+.copy-right{
+    background-color: #14171c;
+    padding-top: 20px;
+    color: #fff;
+}
+.copy-right a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 12px;
+    font-size: 16px;
+}
+.copy-right span{
+    color: #d11f1b;
+}
+
+
+/*Responsive*/
+@media screen and (max-width:991px){
+    .language a:last-of-type{
+        color:#abbdd1 ;
+        padding-right: 4px;
+        border-right: 1px solid #abbdd1;
+    }
+    .communication-links{
+        text-align: center !important;
+       
+    }
+    .communication-links a:nth-child(even){
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+  
+    .communication-info a{
+        
+       margin-top: 4px;
+    }
+  
+    .communication-info a:last-of-type{
+        padding-right: 3px;
+    }
+   
+    form button:last-of-type{
+        margin-right: 20px;
+    }
+    .order .type-blood {
+        width: 125px;
+        height: 125px;
+        border-radius: 50%;
+        line-height: 120px;
+        margin-top: 10px;
+    }
+    .order .type-blood h1{
+        padding: 0;
+        line-height: 125px;
+    }
+    .order a{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+}
+@media screen and (max-width:767px){
+    .upper-bar{
+       text-align: center !important;
+       
+    }
+    .language a:first-of-type {
+        padding-left: 8px;
+    }
+    .language a:last-of-type{
+        padding-right: 8px; 
+    }
+    .communication-links{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+   
+    .communication-links a:nth-child(odd){
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .communication-info{
+        text-align: center!important;
+        font-size: 13px;
+    }
+    .communication-info a{   
+        margin-top: 4px;
+    }
+    .communication-info a:first-of-type{
+        padding-left: 10px;
+    }
+    .communication-info a:last-of-type{
+        padding-right: 10px;
+        border-right: 1px solid #ccc;
+        margin-right: 0px;
+    }
+    .form .custom-input-2{
+        text-align: right  !important;
+        margin-top: 20px;
+    }
+    .order .info-blood{
+        background-color: #fff;
+        border-top-right-radius:0 ;
+        border-bottom-right-radius:0 ;
+    }
+    .order .type-blood {
+        width: 125x;
+        height: 125px;
+        border-radius: 50%;
+        line-height: 125px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .order .info-blood p{
+        text-align: center !important;
+    }
+    .order .type-blood h1{
+        padding: 0;
+        line-height: 125px;
+    }
+    .order .custom-detail a{
+        margin-top: 10px;
+        margin-bottom: 50px;
+        
+    }
+    
+    .copy-right p{
+        font-size: 13px;
+    }
+    
+}

@@ -1,0 +1,383 @@
+/*---------------
+Fonts
+----------------*/
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Cairo', sans-serif;
+}
+
+/*Start Upper Bar*/
+.upper-bar{
+    background-color: #2d3e50;
+    color: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+   
+}
+.language a{
+    text-decoration: none;
+}
+.language a:first-of-type{
+    color: #bf2434;
+   
+}
+
+.language a:last-of-type{
+    color:#abbdd1 ;
+    padding-right: 4px;
+    border-right: 1px solid #abbdd1;
+}
+.communication-links{
+    text-align: center !important;
+   
+}
+.communication-links a{
+    color: #fff;
+    text-decoration: none;
+}
+.communication-links a:nth-child(even){
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.communication-info{
+    text-align: center !important;
+}
+.communication-info a{
+    margin-bottom: 0;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+.communication-info a:first-of-type{
+    border-bottom: 1px dashed #fff;
+}
+.communication-info a:last-of-type{
+    margin-right: 40px;
+    color: #f8b037;
+    
+}
+/*End Upper Bar*/
+/*Start NavBar*/
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(58,173,230, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+button:focus{
+    outline:none;
+}
+.navbar{
+    background-color: #f9f9f9;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.navbar-brand img{
+    height: 68px;
+}
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    border-right: 1px solid #eee;
+    color: #000;
+}
+.nav-item{
+   
+    padding-top:20px ;
+    padding-bottom:20px ;
+}
+.nav-item a{
+    text-decoration: none;  
+}
+.nav-item.active{ 
+    border-bottom: 2px solid #e02327;
+    font-weight: 600;
+}
+.nav-item.active .nav-link{
+    color: #e02327;
+}
+
+form button:last-of-type{
+    color: #fff;
+    background-color: #2c3e4c;
+    border: none;
+    outline: none;
+    font-weight: 600;
+   width: 160px;
+    margin-left: 160px;
+}
+.btn:hover {
+    background-color: #2c3e4c;
+    border-color: #2c3e4c;
+    color: #fff;
+}
+
+/*End Nav Bar*/
+/*Start Connect*/
+.connect{
+    background-color: #fbfbfb;
+    height: auto;
+    padding-top: 20px;
+}
+.custom-item{
+    background-color: #fff;
+    border: 1px solid #eee;
+    padding-left: 0;
+    padding-right: 0;  
+}
+.breadcrumb a{
+ text-decoration: none;
+ color: #ccc;
+}
+ol.breadcrumb{
+    margin-bottom: 0;
+    background-color: #fff;
+    width: 100%;
+}
+.connect .form-btn{
+    display: block;
+    height: 60px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center !important;
+    font-size: 22px;
+    line-height: 2.6;
+    margin-bottom: 0px;
+    background-color: #2c3e4c;
+    
+}
+
+.connect .test{
+    margin-top: 30px;
+}
+.custom-btn ,.custom-btn-1{
+    padding: 0;
+}
+.tax{
+    margin-left:53px;
+} 
+.connect .box{
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+    background-color: #fff;
+    font-size: 20px
+}
+
+.custom-img{
+    display: block;
+    margin:60px auto;
+    max-width: 100%;
+}
+.connect .box-2{
+    border-bottom: 1px solid #eee;
+}
+.connect .info{
+    padding-top: 60px;
+    padding-right: 30px;
+}
+.connect .info a{
+    display: block;
+    margin: 40px auto 20px;
+    text-decoration: none;
+    color: #e61c28;
+    text-align: center !important;
+}
+.connect .cust img{
+    width: 85%;
+    display: block;
+    margin: 30px auto;
+    
+}
+input{
+    height: 60px;
+    border: 1px solid #eee;
+    background-color: #fff;
+    width: 99%;
+    padding-right: 8px;
+    margin-top: 20px;
+    outline: none;
+}
+textarea{
+    width: 99%;
+    padding-right: 8px;
+    margin-top: 20px;
+    outline: none;
+    border: 1px solid #eee;
+    background-color: #fff;
+    height: 130px;
+}
+
+.connect .send{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #2c3e4c;
+    height: 60px;
+    text-align: center;
+    line-height: 2.7;
+    font-weight: bold;
+    border: 1px solid #999;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+@media (min-width: 992px){
+    .col-lg-5 {
+        -ms-flex: 0 0 47.666667%;
+        flex: 0 0 47.666667%;
+        max-width: 47.666667%;
+    }
+}
+@media (max-width:991px){
+    .tax{
+        margin-left: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Start Footer*/
+.footer{
+    background-color: #1a1f25;
+    height: auto;
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer h4{
+    color: #d11f1b;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.footer p{
+    line-height: 2;
+    margin-top: 30px;
+}
+.footer a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 30px;
+}
+.footer img{
+    max-width: 100%;
+}
+/*End Footer*/
+/*Start CopyRight*/
+.copy-right{
+    background-color: #14171c;
+    padding-top: 20px;
+    color: #fff;
+}
+.copy-right a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 12px;
+    font-size: 16px;
+}
+.copy-right span{
+    color: #d11f1b;
+}
+
+
+/*Responsive*/
+@media screen and (max-width:991px){
+    .language a:last-of-type{
+        color:#abbdd1 ;
+        padding-right: 4px;
+        border-right: 1px solid #abbdd1;
+    }
+    .communication-links{
+        text-align: center !important;
+       
+    }
+    .communication-links a:nth-child(even){
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+  
+    .communication-info a{
+        
+       margin-top: 4px;
+    }
+  
+    .communication-info a:last-of-type{
+        padding-right: 3px;
+    }
+   
+    form button:last-of-type{
+        margin-right: 20px;
+    }
+   
+    
+}
+@media screen and (max-width:767px){
+    .upper-bar{
+       text-align: center !important;
+       
+    }
+    .language a:first-of-type {
+        padding-left: 8px;
+    }
+    .language a:last-of-type{
+        padding-right: 8px; 
+    }
+    .communication-links{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+   
+    .communication-links a:nth-child(odd){
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .communication-info{
+        text-align: center!important;
+        font-size: 13px;
+    }
+    .communication-info a{   
+        margin-top: 4px;
+    }
+    .communication-info a:first-of-type{
+        padding-left: 10px;
+    }
+    .communication-info a:last-of-type{
+        padding-right: 10px;
+        border-right: 1px solid #ccc;
+        margin-right: 0px;
+    }
+    .form .custom-input-2{
+        text-align: right  !important;
+        margin-top: 20px;
+    }
+    
+    .copy-right p{
+        font-size: 13px;
+    }
+    
+}
